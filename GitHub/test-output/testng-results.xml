@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34726" started-at="2016-07-06T20:37:30Z" finished-at="2016-07-06T20:38:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34726" started-at="2016-07-06T20:37:30Z" finished-at="2016-07-06T20:38:05Z">
+      <class name="com.qait.assignment.tests.GitHub_Test_1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qait.assignment.tests.GitHub_Test_1@47c62251]" name="setup" is-config="true" duration-ms="26538" started-at="2016-07-07T02:07:30Z" finished-at="2016-07-07T02:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test_LoginToApplication()[pri:0, instance:com.qait.assignment.tests.GitHub_Test_1@47c62251]" name="Test_LoginToApplication" duration-ms="4241" started-at="2016-07-07T02:07:57Z" finished-at="2016-07-07T02:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_LoginToApplication -->
+        <test-method status="PASS" signature="Test_CreateRepository()[pri:0, instance:com.qait.assignment.tests.GitHub_Test_1@47c62251]" name="Test_CreateRepository" duration-ms="3507" started-at="2016-07-07T02:08:01Z" finished-at="2016-07-07T02:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_CreateRepository -->
+        <test-method status="PASS" signature="shellCommands()[pri:0, instance:com.qait.assignment.tests.GitHub_Test_1@47c62251]" name="shellCommands" duration-ms="282" started-at="2016-07-07T02:08:04Z" depends-on-methods="com.qait.assignment.tests.GitHub_Test_1.Test_CreateRepository" finished-at="2016-07-07T02:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shellCommands -->
+        <test-method status="PASS" signature="executeCommands()[pri:0, instance:com.qait.assignment.tests.GitHub_Test_1@47c62251]" name="executeCommands" duration-ms="104" started-at="2016-07-07T02:08:05Z" depends-on-methods="com.qait.assignment.tests.GitHub_Test_1.shellCommands" finished-at="2016-07-07T02:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeCommands -->
+      </class> <!-- com.qait.assignment.tests.GitHub_Test_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
